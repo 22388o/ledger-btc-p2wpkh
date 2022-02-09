@@ -1,0 +1,20 @@
+{
+  "name": "ledger-btc-p2wpkh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "thorswapdev",
+  "dependencies": {
+    "@ledgerhq/hw-app-btc": "^6.21.0",
+    "@ledgerhq/hw-transport-node-hid": "^6.20.0",
+    "@xchainjs/xchain-bitcoin": "^0.17.2",
+    "@xchainjs/xchain-client": "^0.11.1",
+    "@xchainjs/xchain-crypto": "^0.2.6",
+    "@xchainjs/xchain-util": "^0.6.0",
+    "axios": "^0.24.0",
+    "bip32": "^3.0.1",
+    "bitcoinjs-lib": "^6.0.1",
+    "ecpair": "^2.0.1",
+    "wif": "^2.0.6"
+  }
+}
